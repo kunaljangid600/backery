@@ -1,0 +1,11 @@
+window.addEventListener(
+    'scroll',
+    function(){
+if(window.scrollY>=46){
+    document.body.classList.add('shownavbg')
+}
+else{
+    document.body.classList.remove('shownavbg')
+}
+    }
+)
